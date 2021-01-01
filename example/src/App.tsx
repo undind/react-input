@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ReactInput } from 'react-input'
+import ReactInput from 'react-input'
 import 'react-input/dist/index.css'
 
 const App = () => {

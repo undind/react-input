@@ -1,17 +1,3 @@
-import * as React from 'react'
+import ReactInput from './Input'
 
-interface Props {
-  value: string
-  onChange: (value: string) => void
-}
-
-export const ReactInput = ({ value, onChange }: Props) => {
-  const [state, setState] = React.useState(value)
-
-  const onChangeInput = (e: any) => {
-    setState(e.target.value)
-    onChange(e.target.value)
-  }
-
-  return <input value={state} onChange={onChangeInput} />
-}
+export default ReactInput
