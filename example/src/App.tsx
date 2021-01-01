@@ -1,10 +1,13 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-input'
+import { ReactInput } from 'react-input'
 import 'react-input/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const onChange = (value: string) => {
+    console.log(value)
+  }
+  return <ReactInput value='test' onChange={onChange} />
 }
 
 export default App

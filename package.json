@@ -1,5 +1,5 @@
 {
-  "name": "react-input",
+  "name": "react-input-test-packeges",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "undind",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.8.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
