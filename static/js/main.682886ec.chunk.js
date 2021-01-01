@@ -1,2 +1,2 @@
 (this["webpackJsonpreact-input-example"]=this["webpackJsonpreact-input-example"]||[]).push([[0],[,,function(e,t,n){e.exports=n(11)},function(e,t,n){},,,,,,,function(e,t,n){},function(e,t,n){"use strict";n.r(t);n(3);var a=n(0),u=n.n(a),c=n(1),o=n.n(c),r=function(e){var t=e.value,n=e.onChange,u=Object(a.useState)(t),c=u[0],o=u[1];return Object(a.createElement)("input",{value:c,onChange:function(e){o(e.target.value),n(e.target.value)}})},l=(n(10),function(){return u.a.createElement(r,{value:"test",onChange:function(e){console.log(e)}})});o.a.render(u.a.createElement(l,null),document.getElementById("root"))}],[[2,1,2]]]);
-//# sourceMappingURL=main.aaa6f9c3.chunk.js.map
+//# sourceMappingURL=main.682886ec.chunk.js.map
